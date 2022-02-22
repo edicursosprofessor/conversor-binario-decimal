@@ -1,0 +1,65 @@
+body {
+    background-color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    color: #717172;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.formulario-vertical {
+    background-color: #e9eaee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    max-width: 100%;
+    padding: 25px;
+    width: 500px;
+}
+
+.rotulo {
+    color: #525252;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.caixa-texto {
+    background-color: #fafafa;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #525252;
+    font-size: 14px;
+    outline: none;
+    padding: 6px 9px;
+    width: 100%;
+}
+
+.caixa-texto:hover {
+    border: 1px solid #00aeef;
+}
+
+.caixa-texto:focus {
+    border: 1px solid #00aeef;
+    box-shadow: 0 0 4px rgba(11, 195, 241, 0.7);
+}
+
+.btn {
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    padding: 14px 28px;
+}
+
+.btn:hover {
+    background-color: #0b7dda;
+}
